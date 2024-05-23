@@ -1,0 +1,51 @@
+{
+    "ExecutionMode": {
+		"Multiple" : "brwoser.xml",
+		"Grid" : "grid"
+	},    
+    
+    "Browsers": {
+		"Chrome" : "chrome",
+		"Edge" : "edge",
+		"Firefox" : "firefox"
+	},
+	
+	"Browsers_version": {
+		"Chrome" : "108.0.5359.125",
+		"Edge": "108.0.1462.54",
+		"Firefox" : "104.0.1"
+	},
+	
+	"AppUrls":{   
+		"OrangeHRM" : "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+		"Dropdown" : "https://theautomationzone.blogspot.com/2020/07/basic-dropdown.html"        
+    },
+    "Suites": {
+		"TestSuite1" : "Test Suite - Login verification",
+		"TestSuite2" : "Test Suite - Dropdown Test"
+	},
+	
+	"TestCases": {
+		"TestCase1" : "Test Case - Verify login scenarios",
+		"TestCase2" : "Test Case - Verify Dropdown functionality"
+	},
+	
+	"TestClasses": {
+		"TestClass1" : "com.SeleniumWebdriverTest.LoginTest",
+		"TestClass2" : "com.SeleniumWebdriverTest.TestCases"
+	},
+	
+	
+	"ExecutionConfig": {
+		"ExecutionMode" : "Multiple",
+		"Browser" : "Chrome",
+		"application" : "OrangeHRM",
+		"Suite" : "TestSuite1",
+		"TestCase" : "TestCase1",
+		"TestClass" : "TestClass1"
+	
+		
+	}
+	
+	
+}
