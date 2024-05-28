@@ -27,7 +27,7 @@ import io.cucumber.junit.CucumberOptions;
  * */
 
 @CucumberOptions
-      (features ="C:\\Users\\THINKPAD\\Downloads\\TestvoxAutomationSuite-main\\TestvoxAutomationSuite-main\\src\\main\\java\\com\\Featurefile\\Login.feature", 
+      (features ="src\\main\\java\\com\\Featurefile\\Login.feature", 
        glue = {"com.stepdefinition" }, 
        plugin = { "pretty", "json:target/cucumber-report/cucumber.json",
 				"html:target/cucumber-report/cucumber.html" }, 
