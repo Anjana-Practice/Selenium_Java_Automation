@@ -9,7 +9,7 @@
  * @see <com.SeleniumCucumberRunner.TestRunner>
  */
 
-package com.SeleniumCucumberRunner;
+package com.Runner;
 
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
